@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         displayText();
-        for (int count = 0; count < 10; count++) {
+        for (int count = 0; count < 11; count++) {
             Log.d("MainActibity"," counter=" + count);
         }
     }
